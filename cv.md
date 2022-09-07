@@ -6,7 +6,9 @@
 
 ## About me
 When I was a child I wanted to become a programmer, but faculties of cyber sciences required great test marks on math. The last one was an absolute curse for me. However, I tried to create websites and programs using different programming languages. I even wanted to write game mode in C++!
+
 Unfortunately, I had not an opportunity to pass the state math exam. That's why social sciences looked more benefitable and attractive for me.
+
 Now I am a third year law student. I took up learning Fronted and JavaScript since it inspires me. I see a great abundance of opportunities programming can give me. Moreover, I am enjoyed obtaining knowledge on this topic. Actually, this is the reason why I am writing this description.
 
 ## Skills
