@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ghostmodd.github.io/rsschool-cv/cv
