@@ -28,6 +28,9 @@ dd {
   margin: 0;
 }
 
+h1, nav{
+  display: inline-block;
+}
 /* Выставляем основные настройки по-умолчанию для body */
 body {
   min-height: 100vh;
