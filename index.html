@@ -35,6 +35,63 @@
                 a great abundance of opportunities programming can give me. Moreover, I am enjoyed obtaining knowledge
                 on this topic. Actually, this is the reason why I am writing this description.</p>
         </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (Basic)</li>
+                <li>Python (Basic)</li>
+                <li>Git</li>
+            </div>
+        </section>
+
+        <section class="code-example">
+            <h2>Code example</h2>
+            <pre class="JS-code">
+            let input = ('0 -0 gfgf 343 1 -1 -100 4 16 64 100 -2 3 54.2 asd 1000003');
+            let result = input.split(' ');
+                
+            for(let i = 0; i != result.length; i++) result[i] = +result[i];
+            for(let i = 0; i != result.length; i++){
+                if(result[i] % 1 != 0 || result[i] == 0){
+                    result.splice(i, 1);
+                    i = i - 1;
+                }
+            }
+            for(let i = 0; i != result.length; i++){
+                    if(result[i] % 2 != 0){
+                        result.splice(i, 1);
+                        i = i - 1;
+                    }
+                }
+                for(let i = 0; i != result.length; i++){
+                    if(result[i] < 0){
+                        result.splice(i, 1);
+                        i = i - 1;
+                    } else result[i] = Math.sqrt(result[i]);
+                }
+                console.log(result);</pre>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <div class="list">
+                <li>University: Nationa Research University "Higher School of Economics"</li>
+                <li>Courses:</li>
+                <li class="space">The Rolling Scopes School (in process)</li>
+            </div>
+        </section>
+
+        <section class="Languages">
+            <h2>Languages</h2>
+            <div class="list">
+                <li>Russian - Native</li>
+                <li>English - C1</li>
+                <li>German - A1</li>
+            </div>
+        </section>
     </div>
 </body>
 
