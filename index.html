@@ -1,0 +1,89 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/css reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Grigoriy Derevyannykh</h1>
+        <section class="contact-inform">
+            <h2>Contact information</h2>
+            <p class="list"><span class="bold">Phone</span>: +7 924 430 78 98</p>
+            <p class="list"><span class="bold">Email</span>: ghost1mod@gmail.com</p>
+            <p class="list"><span class="bold">Telegram</span>: ghostmodd</p>
+        </section>
+
+        <section class="about-me">
+            <h2>About me</h2>
+            <p>When I was a child I wanted to become a programmer, but faculties of cyber sciences required great test
+                marks on math. The last one was an absolute curse for me. However, I tried to create websites and
+                programs using different programming languages. I even wanted to write a game mode in C++!</p>
+            <p>Unfortunately, I had not an opportunity to pass the state math exam. That's why social sciences looked
+                more benefitable and attractive for me.</p>
+            <p>Now I am a third year law student. I took up learning Fronted and JavaScript since it inspires me. I see
+                a great abundance of opportunities programming can give me. Moreover, I am enjoyed obtaining knowledge
+                on this topic. Actually, this is the reason why I am writing this description.</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <p class="list">- HTML</p>
+            <p class="list">- CSS</p>
+            <p class="list">- JavaScript (Basic)</p>
+            <p class="list">- Python (Basic)</p>
+            <p class="list">- Git</p>
+        </section>
+
+        <section class="code-example">
+            <h2>Code example</h2>
+            <pre class="JS-code">
+            let input = ('0 -0 gfgf 343 1 -1 -100 4 16 64 100 -2 3 54.2 asd 1000003');
+            let result = input.split(' ');
+            for(let i = 0; i != result.length; i++) result[i] = +result[i];
+            for(let i = 0; i != result.length; i++){
+                if(result[i] % 1 != 0 || result[i] == 0){
+                    result.splice(i, 1);
+                    i = i - 1;
+                }
+            }
+            for(let i = 0; i != result.length; i++){
+                    if(result[i] % 2 != 0){
+                        result.splice(i, 1);
+                        i = i - 1;
+                    }
+                }
+                for(let i = 0; i != result.length; i++){
+                    if(result[i] &lt; 0){
+                        result.splice(i, 1);
+                        i = i - 1;
+                    } else result[i] = Math.sqrt(result[i]);
+                }
+                console.log(result);</pre>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <p class="list">- University: Nationa Research University "Higher School of Economics"</p>
+            <p class="list">- Courses:</p>
+            <p class="space list">The Rolling Scopes School (in process)</p>
+        </section>
+
+        <section class="Languages">
+            <h2>Languages</h2>
+            <p class="list">&gt; Russian - Native</p>
+            <p class="list">&gt; English - C1</p>
+            <p class="list">&gt; German - A1</p>
+        </section>
+    </div>
+</body>
+
+</html>
